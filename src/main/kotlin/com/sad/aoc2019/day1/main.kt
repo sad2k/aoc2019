@@ -19,7 +19,7 @@ private fun fuelRequired2(mass: Int): Int {
 }
 
 fun main() {
-    val input: List<Int> = loadFromResources("/day1.txt").readLines().map { it.toInt() }
+    val input: List<Int> = loadFromResources("day1.txt").readLines().map { it.toInt() }
     val res1 = input.map(::fuelRequired).sum()
     println("part 1: ${res1}")
 
